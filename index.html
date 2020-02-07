@@ -3,33 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/sanitize.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru|Oswald&display=swap" rel="stylesheet">
+
   <title>Document</title>
 </head>
 <body>
   <header class="header">
-    <div class="logo">
-
+    <div class="logo_img_area">
+      <img src="img/logo.png" alt="ロゴ画像">
     </div>
     <div class="rsv_container">
       <div class="rsv_btn rsv_by_phone">
-
+        <p>電話予約：00-0000-0000</p>
       </div>
       <div class="rsv_btn rsv_by_web">
-
+        <p>WEB予約</p>
       </div>
     </div>
     <div class="top_nav_container">
-      <div class="top_nav_items top_nav_item1"></div>
-      <div class="top_nav_items top_nav_item2"></div>
-      <div class="top_nav_items top_nav_item3"></div>
-      <div class="top_nav_items top_nav_item4"></div>
-      <div class="top_nav_items top_nav_item5"></div>
+      <nav>
+        <ul>
+          <li class="menu1"><a src="#"></a>CONCEPT</li>
+          <li class="menu2"><a src="#"></a>MENU/PRICES</li>
+          <li class="menu3"><a src="#"></a>HOW TO</li>
+          <li class="menu4"><a src="#"></a>VOICES</li>
+          <li class="menu5"><a src="#"></a>Q&A</li>
+          <li class="menu5"><a src="#"></a>CONTACT</li>
+        </ul>
+      </nav>
     </div>
   </header>
+
   <main class="main">
+
     <section class="hero_section">
-      <div class="hero_img">
+      <div class="hero_img_area">
+        <img src="img/hero1.jpg" alt="メイン画像" class="img_1">
         <span class="slide_circle"></span>
         <span class="slide_circle"></span>
         <span class="slide_circle"></span>
@@ -37,6 +48,7 @@
         <span class="slide_circle"></span>
       </div>
     </section>
+
     <section class="concept">
     <div class="concept_img_area"><img src="img/concept.png" alt="" class="concept_img"></div>
     <div class="concept text_area">
@@ -44,6 +56,7 @@
       <p></p>
     </div>
     </section>
+    
     <section class="how_to_use">
       <div class="step_container">
         <div class="step_box">
@@ -93,6 +106,7 @@
         </div>
       </div>
     </section>
+
     <section class="voices">
       <div class="voices_container">
         <div class="voice_box voice1">
@@ -128,6 +142,7 @@
         </div>
       </div>
     </section>
+
     <section class="access">
       <div class="map_area">
 
@@ -155,6 +170,12 @@
         </table>
       </div>
     </section>
+    
   </main>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
