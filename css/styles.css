@@ -237,3 +237,111 @@ a {
   text-align: center;
   margin-top: 130px;
 }
+
+.how_to .step_container {
+  margin-top: 80px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.how_to .step_container .step_box {
+  width: 25%;
+  height: 350px;
+  padding: 20px;
+  text-align: center;
+  border: double 1px #dfdfdf
+}
+
+.how_to .step_container .step_box:not(:last-child) {
+  margin-right: 20px;
+}
+
+.how_to .step_container .step_box i {
+  margin-top: 20px;
+}
+
+.how_to .step_container .step_box p {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+/* --------------------
+        voices
+-------------------- */
+
+.voices {
+  width: 100%;
+}
+
+.voices > h1 {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.voices .voices_container {
+  margin-top: 80px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.voices .voices_container .voice_box {
+  width: 33.3%;
+  height: 500px;
+  border: solid 1px #ffffff;
+  background: #efefef;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.voices .voices_container .voice_box:not(:last-child) {
+  margin-right: 50px;
+}
+
+.voices .voices_container .voice_box .voice_dsc_title {
+  padding: 30px;
+}
+
+
+.voices .voices_container .voice_box .voice_dsc_title {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  border-bottom: double #ffffff;
+}
+
+.voices .voices_container .voice_box .voice_img_area {
+  width: 100px;
+  height: 100px;
+  border: solid 2px #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 10px 8px #707070;
+}
+
+.voices .voices_container .voice_box .voice_dsc_text {
+  padding: 0 30px 0 30px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+/* --------------------
+        access
+-------------------- */
+.access {
+  width: 100%;
+}
+
+.access > h1 {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.access .access_wrapper .map_area {
+  margin-top: 50px;
+}
